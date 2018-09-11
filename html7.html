@@ -1,0 +1,73 @@
+<DOCTYPE!>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<style>
+
+body{
+    margin:60px;
+	}
+header
+	{       padding:2em;
+			width:50%
+			text-align:center;
+			background-color:black;
+			color:white;
+			clear:left;
+		
+			}
+
+	</style>
+</head>
+<body>
+
+<form>
+<header>Registration Form</header><br>
+<div ng-app="">
+
+Family Name:<input type="text" ng-model="familyname"style="margin:10px" placeholder="Family Name" >{{familyname | uppercase}}
+<br><br>
+E-mail:<input type="text" ng-model="e-mail" style="margin:10px" placeholder="Example@gmail.com" >{{e-mail | uppercase}}
+<br><br>
+Other Name:
+<input type="text" ng-model="othername" style="margin:10px" placeholder="Other Name">{{othername | uppercase}}<br>
+<br><br>
+Address:
+<input type="text" ng-model="address" style="margin:10px" placeholder="Address">{{address | uppercase}}<br>
+<br><br>
+Suburb:
+<input type="text"  ng-model="suburb"style="margin:10px" placeholder="vic(drop down menu)">{{suburb| uppercase}}<br>
+<br><br><br>
+
+<spam >State/territory</spam><br><br>
+<br><br>
+<p>Course info on:</p><br>
+<input type="checkbox" name="course" value="Engineering" style="margin:10px;align:center;" padding="10px" >Engineering<br>
+<input type="checkbox" name="course" value="It" style="margin:10px;" checked padding="50px">It<br>
+<input type="checkbox" name="course" value="Law" style="margin:10px;" padding="50px">Law<br>
+<input type="checkbox" name="course" value="Madical" style="margin:10px;" padding="50px">Madical<br>
+<input type="checkbox" name="course" value="Nursing" style="margin:10px;" padding="50px">Nursing<br>
+
+
+
+
+<br><br>
+Diploma
+<input type="radio"name="subject" value="Post"  style="margin:10px;" padding="10px" checked>Post<br>
+<input type="radio" name="subject" value="Dploma" style="margin:10px;" padding="10px">Diploma<br>
+<input type="radio" name="subject" value="Masters" style="margin:10px;" padding="10px">Masters<br>
+<input type="radio" name="subject" value="PHD" style="margin:10px;" padding="10px">PHD<br>
+<br><br>
+
+Comments:
+<textarea raw="10" col="80"></textarea>
+<br><br>
+<input type="submit" value="submit">
+<input type="button" value="clear form">
+</
+</form>
+
+</body>
+</html>
+ 
+

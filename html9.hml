@@ -1,0 +1,178 @@
+<DOCTYPE!>
+<html>
+<head>
+<style>
+
+@import url('https://fonts.googleapis.com/css?family=Princess+Sofia');
+		html,body,div,ol,li{
+			margin: 0;
+			padding: 0;
+		}
+		html,body{
+			height: 100%;
+			background-color: #fed2df;
+		}
+		section{
+			display: flex;
+			width: 100%;
+			height: 100%;
+      min-height: 350px;
+			flex-direction: row;
+			overflow: hidden;
+			align-items: center;
+			margin: 0 auto;
+		}
+		ol,li{
+			list-style: none;
+		}
+		h1{
+			position: absolute;
+			top:10%;
+			left: 0;
+			right: 0;
+			text-align: center;
+			color: #fff;
+			font-size: 40px;
+			transform: rotate(-10deg);
+			font-family: "Princess Sofia";
+		}
+		.rainbow{
+			margin: 0 auto;
+			overflow: hidden;
+		}
+		.rainbow-ray{
+			margin: 0 auto;
+			padding-top: 50px;	
+			
+		}
+		.rainbow .rainbow-ray-1{
+			background: #fbacb2;
+			width: 700px;
+			border-top-right-radius: 700px;
+			border-top-left-radius: 700px;
+		}
+		.rainbow .rainbow-ray-2{
+			background: #ffcc97;
+			width: 600px;
+			border-top-right-radius: 600px;
+			border-top-left-radius: 600px;
+		}
+		.rainbow .rainbow-ray-3{
+			background: #fdf89d;
+			width: 500px;
+			border-top-right-radius: 500px;
+			border-top-left-radius: 500px;
+		}
+		.rainbow .rainbow-ray-4{
+			background: #e1f4dc;
+			width: 400px;
+			border-top-right-radius: 400px;
+			border-top-left-radius: 400px;
+		}
+		.rainbow .rainbow-ray-5{
+			background: #aceae2;
+			width: 300px;
+			border-top-right-radius: 300px;
+			border-top-left-radius: 300px;
+		}
+		.rainbow .rainbow-ray-6{
+			background: #aedee2;
+			width: 200px;
+			border-top-right-radius: 200px;
+			border-top-left-radius: 200px;
+		}
+		.rainbow .rainbow-ray-7{
+			background: #d6bae1;
+			width: 100px;
+			border-top-right-radius: 100px;
+			border-top-left-radius: 100px;
+		}
+		</style>
+		</head>
+		<body>
+		@import url('https://fonts.googleapis.com/css?family=Princess+Sofia');
+		html,body,div,ol,li{
+			margin: 0;
+			padding: 0;
+		}
+		html,body{
+			height: 100%;
+			background-color: #fed2df;
+		}
+		section{
+			display: flex;
+			width: 100%;
+			height: 100%;
+      min-height: 350px;
+			flex-direction: row;
+			overflow: hidden;
+			align-items: center;
+			margin: 0 auto;
+		}
+		ol,li{
+			list-style: none;
+		}
+		h1{
+			position: absolute;
+			top:10%;
+			left: 0;
+			right: 0;
+			text-align: center;
+			color: #fff;
+			font-size: 40px;
+			transform: rotate(-10deg);
+			font-family: "Princess Sofia";
+		}
+		.rainbow{
+			margin: 0 auto;
+			overflow: hidden;
+		}
+		.rainbow-ray{
+			margin: 0 auto;
+			padding-top: 50px;	
+			
+		}
+		.rainbow .rainbow-ray-1{
+			background: #fbacb2;
+			width: 700px;
+			border-top-right-radius: 700px;
+			border-top-left-radius: 700px;
+		}
+		.rainbow .rainbow-ray-2{
+			background: #ffcc97;
+			width: 600px;
+			border-top-right-radius: 600px;
+			border-top-left-radius: 600px;
+		}
+		.rainbow .rainbow-ray-3{
+			background: #fdf89d;
+			width: 500px;
+			border-top-right-radius: 500px;
+			border-top-left-radius: 500px;
+		}
+		.rainbow .rainbow-ray-4{
+			background: #e1f4dc;
+			width: 400px;
+			border-top-right-radius: 400px;
+			border-top-left-radius: 400px;
+		}
+		.rainbow .rainbow-ray-5{
+			background: #aceae2;
+			width: 300px;
+			border-top-right-radius: 300px;
+			border-top-left-radius: 300px;
+		}
+		.rainbow .rainbow-ray-6{
+			background: #aedee2;
+			width: 200px;
+			border-top-right-radius: 200px;
+			border-top-left-radius: 200px;
+		}
+		.rainbow .rainbow-ray-7{
+			background: #d6bae1;
+			width: 100px;
+			border-top-right-radius: 100px;
+			border-top-left-radius: 100px;
+		}
+		</body>
+		</html>
